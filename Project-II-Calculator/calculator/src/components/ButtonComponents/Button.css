@@ -5,9 +5,32 @@
   background-color: darkred;
   color: white;
   font-size: 4rem;
+  border: 1px solid grey;
 }
 
 .operator:hover {
   background-color: red;
   cursor: pointer;
+}
+
+.number {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 1px solid grey;
+}
+
+.number:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.calculator-clear {
+  color: #333;
+  font-weight: lighter;
+  font-size: 2.5rem;
 }

@@ -5,6 +5,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  border-bottom: 1px solid grey;
 }
 
 .calculator-display > span {
@@ -13,6 +14,8 @@
   margin-right: .3em;
 }
 
+/* ----- */
+
 .calculator-controls {
   height: 79%;
   display: grid;
@@ -20,6 +23,49 @@
   grid-template-rows: 1fr;
   grid-template-areas: "calculator-numpad calculator-operations";
 }
+
+/* ----- */
+
+.calculator-numpad {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.6fr 1.8fr 0.6fr;
+  grid-template-areas: "calculator-clear" "calculator-numbers" "calculator-zero";
+  grid-area: calculator-numpad;
+}
+
+.calculator-clear { grid-area: calculator-clear; }
+
+.calculator-zero { grid-area: calculator-zero; }
+
+.calculator-numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "seven eight nine" "four five six" "one two three";
+  grid-area: calculator-numbers;
+}
+
+.one { grid-area: one; }
+
+.two { grid-area: two; }
+
+.three { grid-area: three; }
+
+.four { grid-area: four; }
+
+.five { grid-area: five; }
+
+.six { grid-area: six; }
+
+.seven { grid-area: seven; }
+
+.eight { grid-area: eight; }
+
+.nine { grid-area: nine; }
+
+
+/* ----- */
 
 .calculator-operations {
   display: grid;
