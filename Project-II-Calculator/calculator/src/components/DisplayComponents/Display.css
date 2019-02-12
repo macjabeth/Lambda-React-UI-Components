@@ -1,0 +1,40 @@
+.calculator-display {
+  width: 100%;
+  background-color: #111;
+  height: 21%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.calculator-display > span {
+  color: white;
+  font-size: 4rem;
+  margin-right: .3em;
+}
+
+.calculator-controls {
+  height: 79%;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "calculator-numpad calculator-operations";
+}
+
+.calculator-operations {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "divide" "multiply" "minus" "plus" "equals";
+  grid-area: calculator-operations;
+}
+
+.divide { grid-area: divide; }
+
+.multiply { grid-area: multiply; }
+
+.minus { grid-area: minus; }
+
+.plus { grid-area: plus; }
+
+.equals { grid-area: equals; }

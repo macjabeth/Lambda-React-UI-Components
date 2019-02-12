@@ -1,0 +1,13 @@
+.operator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkred;
+  color: white;
+  font-size: 4rem;
+}
+
+.operator:hover {
+  background-color: red;
+  cursor: pointer;
+}
