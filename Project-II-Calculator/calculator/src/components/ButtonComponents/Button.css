@@ -5,27 +5,20 @@
   background-color: darkred;
   color: white;
   font-size: 4rem;
-  border: 1px solid grey;
-}
-
-.operator:hover {
-  background-color: red;
-  cursor: pointer;
 }
 
 .number {
-  background-color: white;
+  background-color: #fff;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
   font-weight: bold;
-  border: 1px solid grey;
 }
 
+.operator:hover,
 .number:hover {
-  background-color: greenyellow;
   cursor: pointer;
 }
 
