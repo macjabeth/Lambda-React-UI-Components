@@ -6,10 +6,16 @@
 
 .footer a {
   margin-left: 10%;
+  cursor: pointer;
+  user-select: none;
 }
 
 .footer a:first-child i {
   transform: rotateY(180deg);
+}
+
+.footer a:hover {
+  color: black;
 }
 
 .footer span {

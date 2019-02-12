@@ -1,13 +1,14 @@
 import React from 'react';
+import SocialLink from '../SocialLink/SocialLink';
 import './Footer.css';
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <div className='footer'>
-      <a><i className='far fa-comment'></i></a>
-      <a><i className="fas fa-sync-alt"></i> <span>6</span></a>
-      <a><i className="far fa-heart"></i> <span>4</span></a>
-      <a><i className="far fa-envelope"></i></a>
+      <SocialLink className='far fa-comment' id='comment-count' />
+      <SocialLink className='fas fa-sync-alt' id='share-count' />
+      <SocialLink className='far fa-heart' id='heart-count' />
+      <SocialLink className='far fa-envelope' id='mail-count' />
     </div>
   )
 }
