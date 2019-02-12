@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
-import Footer from './components/FooterComponents/FooterContainer';
+import FooterContainer from './components/FooterComponents/FooterContainer';
 import './App.css';
 
 const App = () => {
