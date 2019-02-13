@@ -2513,6 +2513,11 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
+expr-eval@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/expr-eval/-/expr-eval-1.2.2.tgz#8b1a160b814e67da7652007e2693714895221ea0"
+  integrity sha1-ixoWC4FOZ9p2UgB+JpNxSJUiHqA=
+
 express@^4.13.3:
   version "4.16.3"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"

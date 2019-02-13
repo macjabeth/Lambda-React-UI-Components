@@ -4,11 +4,11 @@ import './Display.css';
 
 const CalculatorOperations = (props) => (
   <div className='calculator-operations'>
-    <NumberButton buttonStyle='divide operator' text='&divide;' />
-    <NumberButton buttonStyle='multiply operator' text='&times;' />
-    <NumberButton buttonStyle='minus operator' text='&ndash;' />
-    <NumberButton buttonStyle='plus operator' text='+' />
-    <NumberButton buttonStyle='equals operator' text='=' />
+    <NumberButton buttonStyle='divide operator' text='&divide;' updateTotal={props.updateTotal} />
+    <NumberButton buttonStyle='multiply operator' text='&times;' updateTotal={props.updateTotal} />
+    <NumberButton buttonStyle='minus operator' text='&ndash;' updateTotal={props.updateTotal} />
+    <NumberButton buttonStyle='plus operator' text='+' updateTotal={props.updateTotal} />
+    <NumberButton buttonStyle='equals operator' text='=' updateTotal={props.updateTotal} />
   </div>
 )
 

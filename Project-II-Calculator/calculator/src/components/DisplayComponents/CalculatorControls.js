@@ -5,8 +5,8 @@ import './Display.css';
 
 const CalculatorControls = (props) => (
   <div className='calculator-controls'>
-    <CalculatorNumpad />
-    <CalculatorOperations />
+    <CalculatorNumpad updateTotal={props.updateTotal} />
+    <CalculatorOperations updateTotal={props.updateTotal} />
   </div>
 )
 
