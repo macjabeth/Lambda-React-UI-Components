@@ -8,8 +8,8 @@
 }
 
 .number {
-  background-color: #fff;
-  color: black;
+  background-color: #17181c;
+  color: #e8e7e3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .calculator-clear {
-  color: #333;
+  color: #d5d2cd;;
   font-weight: lighter;
   font-size: 2.5rem;
 }
