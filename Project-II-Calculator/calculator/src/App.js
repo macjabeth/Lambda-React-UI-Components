@@ -9,10 +9,9 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { total: '' };
-    this.updateTotal = this.updateTotal.bind(this);
   }
 
-  updateTotal(text) {
+  updateTotal = (text) => {
     switch (text) {
       case 'clear':
         this.setState({ total: '' });
