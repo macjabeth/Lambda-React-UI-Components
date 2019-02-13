@@ -34,7 +34,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='app-container'>
-        <CalculatorDisplay text={this.state.total || 0} />
+        <CalculatorDisplay text={this.state.total} />
         <CalculatorControls updateTotal={this.updateTotal} />
       </div>
     );
